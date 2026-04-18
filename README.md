@@ -8,6 +8,7 @@
 cd backend
 python3 -m venv pathcredit
 source pathcredit/bin/activate
+> Note: `source pathcredit/bin/activate` is for Mac/Linux. On Windows use `pathcredit\Scripts\activate`
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
