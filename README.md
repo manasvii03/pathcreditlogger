@@ -1,5 +1,9 @@
 **How to Run**
 
+**Prerequisites**
+- Python 3.8+
+- Node.js 16+ (via nvm recommended)
+
 ```bash
 cd backend
 python3 -m venv pathcredit
@@ -13,7 +17,6 @@ python manage.py runserver
 
 ```bash
 cd frontend
-nvm use --lts
 npm install
 npm start
 ```
