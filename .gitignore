@@ -1,5 +1,6 @@
-# Python
-pathcredit/
+pathcredit/bin/
+pathcredit/lib/
+pathcredit/include/
 __pycache__/
 *.pyc
 db.sqlite3
