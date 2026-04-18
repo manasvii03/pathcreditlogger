@@ -1,0 +1,149 @@
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background: #f5f5f5;
+    color: #333;
+  }
+  
+  .app {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  h1 {
+    margin-bottom: 16px;
+  }
+  
+  nav {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 24px;
+  }
+  
+  nav button {
+    padding: 8px 16px;
+    cursor: pointer;
+    border: 1px solid #333;
+    background: white;
+    border-radius: 4px;
+  }
+  
+  nav button:hover {
+    background: #333;
+    color: white;
+  }
+  
+  .form-container, .feed-container {
+    background: white;
+    padding: 24px;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    margin-bottom: 16px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  input, select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: red;
+    font-size: 13px;
+  }
+  
+  .filter-bar {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+  
+  .filter-bar button {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    background: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 13px;
+  }
+  
+  .filter-bar button.active {
+    background: #333;
+    color: white;
+    border-color: #333;
+  }
+  
+  .activity-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .activity-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-radius: 6px;
+    background: #fafafa;
+    border-left: 4px solid #ccc;
+  }
+  
+  .activity-item.Academic { border-left-color: #3b82f6; }
+  .activity-item.Technical { border-left-color: #8b5cf6; }
+  .activity-item.Cultural { border-left-color: #f97316; }
+  .activity-item.Sports { border-left-color: #22c55e; }
+  
+  .activity-name {
+    font-weight: bold;
+  }
+  
+  .activity-category {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .activity-category.Academic { background: #3b82f6; }
+  .activity-category.Technical { background: #8b5cf6; }
+  .activity-category.Cultural { background: #f97316; }
+  .activity-category.Sports { background: #22c55e; }
+  
+  .activity-date {
+    color: #999;
+    font-size: 13px;
+  }
+  
+  .empty {
+    color: #aaa;
+    margin-top: 16px;
+    font-size: 14px;
+  }
